@@ -7,7 +7,7 @@ from tensorflow.keras.metrics import Precision, Recall, CategoricalAccuracy
 from matplotlib import pyplot as plt
 
 
-data = pd.read_csv('test_dataframe.csv', nrows=40000)
+data = pd.read_csv('jigsaw-toxic-comment-classification-challenge/train.csv/train.csv')
 
 
 comments = data['comment_text']
